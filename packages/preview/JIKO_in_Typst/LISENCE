@@ -1,0 +1,66 @@
+MIT License
+
+Copyright (c) 2024-2026 Esdras
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY LICENSES AND CREDITS
+================================
+
+abnTeX2 Inspiration
+-------------------
+This project was inspired by abnTeX2 (https://github.com/abntex/abntex2),
+a LaTeX package for formatting documents according to ABNT standards,
+maintained by Lauro César Araujo and the abnTeX2 team under the
+LaTeX Project Public License (LPPL) [citation:22][citation:26].
+
+CSL ABNT Style
+--------------
+The file src/references/abnt.csl was adapted from the csl-abnt project
+(https://github.com/virgilinojuca/csl-abnt), which is released under
+CC0 1.0 Universal (Public Domain Dedication) by @virgilinojuca and @AAguiarCAM [citation:19].
+
+Touying
+-------
+The slides template uses the Touying package for Typst presentations.
+Touying is available under its own license at:
+https://github.com/touying-typ/touying
+
+Cambridge University Press (CUP) Template Inspiration
+-----------------------------------------------------
+The layout and formatting principles of this Typst template were inspired by
+the official LaTeX templates provided by Cambridge University Press (CUP),
+specifically the "Cambridge Medium" template available on Overleaf
+(https://www.overleaf.com/latex/templates/cambridge-medium-template-class-file/zshzqdxjjqkq).
+The original CUP template is licensed under the Creative Commons Attribution 4.0
+International (CC BY 4.0) by Cambridge University Press and Overleaf .
+No source code from the CUP template was copied; only general structural
+concepts were referenced.
+
+JIKO (Jurnal Informatika dan Komputer) Formatting Guidelines
+------------------------------------------------------------
+This template is designed to produce manuscripts that conform to the
+author guidelines of JIKO (Jurnal Informatika dan Komputer), published by
+Universitas Teknologi Digital Indonesia (UTDI). The official JIKO LaTeX
+template (available at https://ejournal.utdi.ac.id/index.php/jiko) does not
+specify an open-source license. This Typst template is an independent
+implementation of those formatting guidelines and is not officially
+affiliated with or endorsed by JIKO or UTDI.

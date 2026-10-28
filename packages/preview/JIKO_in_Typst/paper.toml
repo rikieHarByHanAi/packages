@@ -1,0 +1,80 @@
+# paper.toml : semua data naskah (jurnal, judul, penulis, afiliasi, abstrak, biografi)
+# Nilai teks dibaca sebagai markup Typst: *tebal*, _miring_, $matematika$ berlaku.
+# Pakai tanda kutip tunggal tiga (''' ''') agar backslash dan tanda kutip aman.
+
+title       = "The Article Title Is No More Than 12 Words"
+subtitle    = "Subtitle if needed, and Title case"
+short_title = "The Article Title Is No More Than 12 Words"
+cite_name   = "F. Author"
+
+keywords_en = '''Typst; Template; JIKO; New Template; Special Edition -- "max 5 Words seperated with semicolon (;)"'''
+
+
+abstract = '''
+The abstract is contained in one paragraph with a maximum of 150 - 250 words, the main aspect of the entire paper. They often include: 1) The overall research objective and research problem; 2) The basic design of the research approach; 3) The main findings as a result of the analysis; and, 4) a brief summary of interpretations and conclusions.
+'''
+
+# Urutan = nomor afiliasi (1, 2, ...)
+affiliations = [
+  "Department, Faculty, Affiliation-1, City, Country",
+  "Department, Faculty, Affiliation-2, City, Country",
+]
+
+# ---------- Data Publish, let Editor fill it----------
+[journal]
+manuscript = "article"   # article, SpecialIssue, data, software, editorial
+layout     = "publish"   # "preprint" = dengan nomor baris
+year       = 2027
+month      = "June"
+volume     = 11
+number     = "x"
+article_id = "xxx"
+first_page = 15
+logo       = "jiko-logo.png"
+crossmark  = "CROSSMARK_Color.png"
+
+[dates]
+received  = "22-11-23"
+accepted  = "23-3-24"
+published = "30-3-24"
+
+# ---------- Penulis ----------
+# affil boleh angka tunggal (affil = 1) atau daftar (affil = [1, 2]).
+# Isi email hanya untuk corresponding author.
+[[authors]]
+name  = "First Author"
+affil = 1
+email = "correspondence@email.ac.id"
+
+[[authors]]
+name  = "Second Author"
+affil = 1
+
+[[authors]]
+name  = "Third Author"
+affil = 2
+
+# Biografi: urutan sama dengan penulis.
+[[biography]]
+name  = "First Author"
+photo = "photoauthor.png"
+text  = '''
+He/she earned a Master’s degree in Computer Science from Gadjah Mada University (2016) and a Ph.D. in Information Technology from the Bandung Institute of Technology (2021). He currently serves as a tenured faculty member in the Computer Engineering Program at Digital Nusantara University.
+Research interests include Machine Learning, Natural Language Processing, and Big Data Analytics, with a teaching focus on Artificial Intelligence and Databases. He is actively involved in various research grants from the Ministry of Education and Culture and serves as the Head of the Intelligent Computing Laboratory. His publications appear in accredited national journals and international conference proceedings.
+'''
+
+[[biography]]
+name  = "Second Author"
+photo = "photoauthor.png"
+text  = '''
+Completed a Master’s degree in Electrical Engineering at the University of Indonesia (2018). Currently serves as a lecturer in the Department of Telecommunications Engineering at Surya Mandiri Institute of Technology.
+His research interests include Wireless Sensor Networks, Embedded Systems, and Robotics. He teaches courses on Microprocessor Systems and Sensor Networks. He has received applied research grants from the Ministry of Research and Technology for two consecutive terms. In addition to teaching, he serves as the Program Secretary and manages the university’s internal journal.
+'''
+
+[[biography]]
+name  = "Third Author"
+photo = "photoauthor.png"
+text  = '''
+He/she earned a Master’s degree in Computer Engineering from Telkom University (2015). He is currently a tenured lecturer in the Faculty of Computer Science at Multimedia Cendekia University.
+His research focuses on cybersecurity, digital forensics, and cloud computing, with teaching experience in network security and operating system architecture. He has secured several research grants from private and national research institutions. In addition to his academic duties, he also serves as the Coordinator of the Center for Cybersecurity Studies and is active in community service related to digital literacy.
+'''
